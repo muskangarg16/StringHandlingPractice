@@ -17,17 +17,8 @@ class Ques8 {
     public String getStr() {
         return str;
     }
-
-    public char getChr() {
-        return chr;
-    }
-
     public void setStr(String str) {
         this.str = str;
-    }
-
-    public void setChr() {
-        this.chr = chr;
     }
 
     public int UpperWeight() {
