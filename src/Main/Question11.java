@@ -1,6 +1,7 @@
 package Main;
 
 public class Question11 {
+    }
 }
 class Ques11{
 private String str;
@@ -17,5 +18,13 @@ private char chr;
     public void setChr(){
     this.chr=chr;
     }
-
+    public String ind(){
+        StringBuilder sb=new StringBuilder();
+        for(int i=0;i<=getStr().length();i++){
+            if(getStr().charAt(i)==getChr()){
+                sb.append(i+"\n");
+            }
+        }
+        return sb.toString();
+    }
 }
