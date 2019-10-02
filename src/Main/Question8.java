@@ -10,8 +10,6 @@ public class Question8 {
 }
 class Ques8 {
     private String str;
-    private char chr;
-
     public Ques8(String str) {
         this.str = str;
     }
