@@ -14,4 +14,7 @@ class Ques9{
     public void setStr(String str) {
         this.str = str;
     }
+    public int AbsWeight(){
+
+    }
 }
