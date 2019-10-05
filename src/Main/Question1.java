@@ -1,6 +1,9 @@
 package Main;
 
 public class Question1 {
+    public static void main(String[] args) {
+
+    }
 
 }
 class Ques1{
