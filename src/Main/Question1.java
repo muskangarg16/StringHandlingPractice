@@ -12,8 +12,14 @@ public class Question1 {
 
 }
 class Ques1{
-    private String str;
-    public Ques8(String str) {
-        this.str = str;
+    private String s;
+    public Ques8(String s) {
+        this.s = s;
+    }
+    public String getStr() {
+        return s;
+    }
+    public void setStr(String str) {
+        this.s = str;
     }
 }
