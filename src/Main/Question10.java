@@ -1,8 +1,12 @@
 package Main;
-
+import java.util.*;
 public class Question10 {
     public static void main(String[] args) {
-
+        Scanner in = new Scanner(System.in);
+        String str = in.nextLine();
+        char ch=in.next().charAt(0);
+        Ques10 obj = new Ques10(str);
+        System.out.println(obj.stringInd(ch));
     }
 
 }
