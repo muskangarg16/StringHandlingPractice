@@ -1,6 +1,9 @@
 package Main;
 
 public class Question5 {
+    public static void main(String[] args) {
+
+    }
 }
 class Ques5 {
     private String s;
@@ -14,6 +17,6 @@ class Ques5 {
         this.s = s;
     }
     public String replaceSubstring{
-        
+
     }
 }
