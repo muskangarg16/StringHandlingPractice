@@ -13,4 +13,9 @@ class Ques3{
     public void setStr(String str) {
         this.str = str;
     }
+    public String replaceString(){
+        String t=getStr();
+        t=getStr().replace("aeiouAeiou","*");
+        return t;
+    }
 }
